@@ -1,0 +1,623 @@
+/*google font integrate*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*global css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Quicksand', sans-serif;
+}
+a,p,span,input{font-family: 'Roboto', sans-serif;
+}
+
+/*header part css*/
+
+
+.header{
+	width: 100%;
+	background: white;
+	padding: 20px;
+	
+}
+.header img{
+	vertical-align: middle;
+}
+
+.header span{
+	font-size: 27px;
+    margin-left: 6px;
+    height: 9px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+/*body part css*/
+
+.banner{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 15px;
+}
+.col-6{
+ 	width: 50%;
+ 	float: left;
+}
+
+.col-1{
+	width: 15%;
+	float: left;
+}
+.col-11{
+	width: 85%;
+	float: right;
+}
+.banner.left{
+	
+}
+.col-6.left h1{
+	font-size: 44px;
+    margin-bottom: 18px;
+}
+.col-6.left p{
+	margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4c527d; 
+}
+.banner button{
+	padding: 20px 40px;
+	border-radius: 26px;
+	outline: none;
+	border: none;
+	border-color: 3px solid #ed6524; 
+	margin-right: 15px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.left-button{
+	background: #ed6524;
+	font-size: 13px;
+	color: white;
+
+}
+.left-button:hover{
+
+	color: black;
+}
+
+.right-button{
+	border-color: #ed6524;
+	font-size: 13px;
+	transition: all 0.5sc ease-in-out;
+}
+
+.right-button:hover{
+	background: #ed6524;
+	color: white;
+	transition: all 0.5sc ease-in-out;
+}
+
+/*testimonial css part*/
+
+.testimonial{
+	width: 100%;
+	margin: 10px 0;
+}
+.massage{
+	height: 140px;
+	width: 100%;
+	background: #F6F8FC ;
+	border-left: 4px solid #ed6524;
+	position: relative;
+}
+.massage p{
+	font-size: 16px!important;
+	line-height: 20px !important;
+	padding: 40px !important;
+	font-style: italic;
+}
+.corner-box{
+	height: 30px;
+	width: 30px;
+	background: #F6F8FC;
+	position: absolute;
+	bottom: -15px;
+	left: 5%;
+	transform: rotate(45deg);
+
+}
+.user{
+	width: 100%;
+	height: 70px;
+	margin-top: 22px;
+}
+.user img{
+	width: 72px;
+
+}
+.user-info{
+	margin: 15px 10px;
+}
+.user-info p{
+margin: 0!important;
+padding: 0!important;
+font-weight: 400!important;
+font-size: 14px important;
+line-height: 18px !important;
+}
+
+
+/*right col css part*/
+
+.col-6 right{
+	width: 50%;
+	float: right;
+}
+.banner.right.img{
+	margin: 30px 60px;
+    float:right;
+}
+.see-all{
+	float: right;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 239px;
+}
+.see-all a{
+	color: black;
+
+}
+
+.see-all a:hover{
+	color: red ;
+}
+.right-img{
+	position: relative;
+}
+
+.circle{
+	height: 140px;
+	width: 140px;
+	line-height: 140Px;
+	background-color: green;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font size: 18px;
+	position: absolute;
+	right: 20px;
+	top: -64px;
+}
+
+/*2nd page*/
+
+.service{
+	display: flow-root;
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%)
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.section-1{
+	text-align: center;
+
+}
+
+.new-section{
+margin: 0 auto;
+padding-top: 100px;
+text-align: center;
+width: 1140px;
+}
+
+.img-container {
+    float: left;
+    width: 350px;
+    padding:32px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 55px;
+    padding-left: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.img-container img{
+	align-items: center;
+}
+
+
+
+/*item section start here*/
+
+.item-section{
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	display: flow-root;
+
+}
+.container{
+	width: 1140px,
+	margin:0 auto;
+}
+
+
+.item-title{
+	text-align: center;
+}
+
+.item-title h1{
+	font-size: 42px;
+	font-weight: 600;
+	padding: 50px 0;
+}
+.item-body{
+	width: 100%;
+	float: left;
+
+}
+.item-image img{
+	width: 70%;
+	text-align: center;
+	margin-left: 100px;
+}
+.col-6{
+	width: 50%,
+
+}
+.col-6-1{
+	width: 50%;
+	float: right;
+
+}
+.item-text ul li{
+	list-style: none;
+	color: #4c527d;
+	font-size: 18px;
+	margin-top: 30px;
+
+
+}
+.item-text ul li i{
+	color: #74CDBB;
+}
+.mid-button{
+	margin-top:40px; 
+	padding: 25px 60px;
+	border-radius: 32px;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	color: white;
+	background: #ed6524;
+	margin-right: 10px;
+	font-weight: 600;
+	cursor: pointer;
+
+}
+/*item section end here 3rd page here*/
+
+/*4th page start here*/
+.User{
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	display: flow-root;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.User-title{
+	text-align: center;
+}
+.User-title h1{
+	font-size: 42px;
+	font-weight: 600;
+	padding: 30px 0;
+
+}
+.User-title p{
+	padding: 0 194px;
+    font-size: 20px;
+    color: #4c527d;
+   
+}
+.user-text{
+	text-align: center;
+	margin: 30px 0;
+
+}
+.user-text ul li{
+	list-style: none;
+    margin-right: 224px;
+    font-size: 26px;
+    padding: 6px;
+
+}
+.user-text ul li i{
+	color: #7FCDBB;
+
+}
+
+	
+
+.user-text p{
+	
+    padding: 10px 346px!important;
+    margin: 22px!important color:#4c527d;
+    color: #4c527d;
+
+}
+/*4th page end here*/
+
+/*5th page css start here*/
+.subscribe{
+	width: 100%;
+   display: flow-root;
+   height: 0 auto;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.subscribe-body{
+    background: #f6f4fc;
+    text-align: center;
+    padding: 60px 40px;
+    width: 50%;
+    margin-left: 220px;}
+
+.mail-input{
+	width: 50%;
+	padding: 15px;
+	outline: none;
+	border: none;
+}
+.button-1{
+    padding: 15px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: #ed6524;
+	color: white;
+	font-weight: 400;
+
+}
+/*5th page css start here*/
+
+
+/*6th page start here*/
+.Book-reviews{
+	width: 100%;
+   display: flow-root;
+   height: 0 auto;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+.home{
+	height: 0 auto;
+}
+
+.book-title{
+	text-align: center;
+}
+
+.book-title h1{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.book-title p{
+	color: #4c527d;
+	font-size: 25px;
+}
+.row-10{
+	float: left;
+    background-color: #f6f8fc;
+    position: relative;
+    padding: 30px;
+    width: 26%;
+    margin-top: 26px;
+    margin-left: 15px
+
+}
+.p2 p{
+	color: #4c527d;
+	font-size: 18px;
+}
+.p3 p{
+	color: #4c527d;
+	
+
+}
+
+.image-design img{
+	width: 20%;
+	padding: 10px;
+
+}
+
+.row-11{
+	margin-top: -70px;
+	margin-left: 100px;
+}
+.testimonial-me{
+	height: 40px !important ;
+	width: 40px !important;
+	line-height:40px !important;
+	border-radius: 100px;
+	left: 45%;
+	position: absolute;
+	text-align: center;
+	background-color:#f5a782; 
+	top: -20px;
+	color: white;
+}
+
+.row-20{
+	float: left;
+    background-color: #f6f8fc;
+    position: relative;
+    padding: 15px;
+    width: 26%;
+    padding-right: 24px;
+    margin-top: 26px;
+    margin-left: 127px;
+
+}
+.middle-button{
+	font-size: 20px;
+    margin-top: 500px;
+    margin-left: -715px;
+    padding-top: 25px;
+    font-weight: 400;
+    border: none;
+    background: #ed6524;
+    color: white;
+    border-radius: 80px;
+    padding: 30px;
+
+}
+
+/*6th page here here*/
+
+
+/*7th page here here*/
+
+.writer{
+	width: 100%;
+   display: flow-root;
+   height: 0 auto;
+   background-color: #ed6524;
+   margin-top:39px;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+
+}
+.writer-body{
+	padding: 40px 0;
+	
+}
+.image-section img{
+	width: 200px;
+    text-align: center;
+    margin-left: 480px;
+
+}
+.writer-info h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+.writer-info p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+.writer-info a{
+	color: white;
+	cursor: pointer;
+
+}
+.writer-info h2{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding:37px;
+}
+.icon-design{
+	text-align: center;
+}
+
+.icon-design ul li{
+	list-style: none;
+    display: inline-block;
+
+
+}
+.icon-design ul li i{
+	background-color: rgb(0,0,0,0.1);
+	border-radius: 60%;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+
+}
+.pera-sesh{
+   width: 100%;
+   display: flow-root;
+   height: 0 auto;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+
+}
+.pera-sesh-design{
+	text-align: center;
+	margin: 15px;
+
+}
+.pera-sesh-design span{
+	font-size: 12px;
+	color: #4c527d;
+}
+.pera-sesh-design li{
+	list-style: none;
+	display: inline-block;
+}
+.pera-sesh-design li i{
+	color: #ed6524;
+
+}
+
+.pera-sesh-design  a{
+	color: black;
+	cursor: pointer;
+
+}
+.pera-sesh-design  a:hover{
+	color: #ed6524;
+}
+
+
+
+
+
+
+
+
+
+/*7th page here here*/
